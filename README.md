@@ -1,5 +1,4 @@
 # DataScience
-Data Science related projects
 
 For the Twitter Sentiment Analysis, I used the tweepy API to connect to Twitter and the textblob library for NLP.
 

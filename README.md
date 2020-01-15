@@ -2,7 +2,7 @@
 
 # 1. Gender Classifier
 
-In this project, I predicted the genders of people based on their height and weight using machine learning. I provided my machine learning model a data set with contained the height and weight of a person and their corressponding gender. The model is trained on that data and so I am able to predict a person's gender based on their height and weight.
+In this project, I predicted the genders of people based on their height and weight using machine learning. I used the sklearn library for machine learning. I provided my machine learning model a data set with contained the height and weight of a person and their corressponding gender. The model is trained on that data and so I am able to predict a person's gender based on their height and weight.
 
 # 2. Twitter Sentiment Analysis:
 

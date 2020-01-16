@@ -10,7 +10,7 @@ During the development of this project, I used the tweepy API to connect to Twit
 
 # 3. Movie Recommendation System
 
-My project takes in a dataset of movies and their ratings. Then based on those ratings, the program will use machine learning recommend other similar movies that a user may like using the lightfm library. I used lightfm's fetch_movielens_method to get all the movies with a rating of 4 and above. In my program, I print out the top 3 movies that I know of from the list of movies, and I then I print out 3 recommended movies for the user.  
+My project takes in a dataset of movies and their ratings. Then based on those ratings, the program will use machine learning recommend other similar movies that a user may like using the lightfm library. I used lightfm's fetch_movielens method to get all the movies with a rating of 4 and above. In my program, I print out the top 3 movies that I know of from the list of movies, and I then I print out 3 recommended movies for the user.  
 
 # 4. Deep dream art
 

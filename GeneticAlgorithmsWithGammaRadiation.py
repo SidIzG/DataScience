@@ -21,7 +21,7 @@ training_indices, valididation_indices = training_indices, testing_indices = tra
 
 #Here we initialize the tpot variable using the TPOT class and train our model
 tpot = TPOT(generations=5, verbosity=2)
-tpot.fit(chrnkv_tele_data.drop('Class', axis=1).loc[training_indicss].values, chrnkv_tele_data.loc[training_indices, 'Class'].values)
+tpot.fit(chrnkv_tele_data.drop('Class', axis=1).loc[training_indices].values, chrnkv_tele_data.loc[training_indices, 'Class'].values)
 
 #compute testing error for validation
 tpot.score(chrnkv_tele_data.drop('Class', axis=1).loc[valididation_indices].values,chrnkv_tele_data.loc[valididation_indices, 'Class'].values)

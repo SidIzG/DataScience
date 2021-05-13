@@ -19,3 +19,7 @@ For this project, I replicated Google's Deep Dream neural network using Tensorfl
 # 5. Genetic algoritm
 
 In this project, I used Genetic programming to identify if some energy is Gamma radiation or not. I used the 3 steps of genetic programming: Selection, Crossover, and Mutation. I used data coming from the Cherenkov telescope which is a russian telescope that measures radiation. I had to clean the data, split the data into training, testing, and validation data. Then I used the tpot library to train our model, compute the testing error for validation, and lastly export the code to the "pipeline.py" class.  
+
+# 6. NYPD Arrest Data Analysis
+
+Here, I imported the NYPD's arrest data to gain insight and find patterns in the arrests the NYPD makes. I performed plenty of EDA and visualized it using matplotlib. Using the Folium library, I was able to visualize the arrests made into clusters on an interactive map of NYC. I also determined arrest hotspots in the city. Using machine learning algorithms such as Random Forest, KNN, and SVM, I predicted the possible Borough an arrest may have taken place in with an accuracy of up to 94%. 
